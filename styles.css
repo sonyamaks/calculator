@@ -1,0 +1,129 @@
+/* Setting up the fonts */
+* {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Background color */
+body {
+  background-color: aliceblue;
+}
+
+/* MAIN */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.calculator {
+  width: 330px;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(233, 202, 221);
+}
+
+/* Calcualtor Screen Styling */
+.screen {
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  background-color: rgba(223, 216, 212, 0.548);
+}
+
+.screen-prev {
+  min-height: 32px;
+  font-size: 20px;
+}
+
+.screen-current {
+  min-height: 64px;
+  font-size: 40px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
+
+/* Buttons styling */
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.button {
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-color: rgba(255, 236, 169);
+}
+
+.green {
+  background-color: rgba(218, 235, 194);
+}
+
+.blue {
+  background-color: rgba(202, 236, 242);
+}
+
+.pink {
+  background-color: rgba(253, 235, 234);
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.btn-red {
+  background-color: rgb(255, 144, 144);
+}
+
+.btn-blue {
+  background-color: rgb(187, 187, 241);
+}
+
+.btn {
+  height: 60px;
+  font-weight: 500;
+  font-size: medium;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(1.2);
+}

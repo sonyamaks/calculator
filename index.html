@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Container for content -->
+    <div class="main-content">
+      <div class="header">Retro Calculator</div>
+      <!-- Container for the calcualtor -->
+      <div class="calculator">
+        <!-- Calculator Screen -->
+        <div class="screen">
+          <div class="screen-prev" data-previous-operand></div>
+          <div class="screen-current" data-current-operand></div>
+        </div>
+
+        <!-- Buttons grid -->
+        <div class="buttons-grid">
+          <button class="btn btn-red span-2" data-all-clear>AC</button>
+          <button class="btn btn-blue span-2" data-delete>DELETE</button>
+          <!-- First row -->
+          <button class="button yellow" data-number>7</button>
+          <button class="button yellow" data-number>8</button>
+          <button class="button yellow" data-number>9</button>
+          <button class="button yellow" data-operator>÷</button>
+
+          <!-- Second row -->
+          <button class="button green" data-number>4</button>
+          <button class="button green" data-number>5</button>
+          <button class="button green" data-number>6</button>
+          <button class="button green" data-operator>*</button>
+
+          <!-- Third row -->
+          <button class="button blue" data-number>1</button>
+          <button class="button blue" data-number>2</button>
+          <button class="button blue" data-number>3</button>
+          <button class="button blue" data-operator>-</button>
+
+          <!-- Fourth row -->
+          <button class="button pink" data-number>0</button>
+          <button class="button pink" data-number>.</button>
+          <button class="button pink" data-equals>=</button>
+          <button class="button pink" data-operator>+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        Made by:
+        <a href="https://github.com/sonyamaks"> Sofiia Maksymenkova </a>
+        <img src="github-mark.png" alt="github logo" />
+      </div>
+    </footer>
+  </body>
+</html>
